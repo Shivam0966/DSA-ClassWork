@@ -26,7 +26,7 @@ class Main {
         return root;
     }
 
-    // Preorder: Root -> Left -> Right
+    
     static void preorder(Node root) {
         if (root == null) return;
 
@@ -35,7 +35,7 @@ class Main {
         preorder(root.right);
     }
 
-    // Inorder: Left -> Root -> Right
+    
     static void inorder(Node root) {
         if (root == null) return;
 
@@ -44,7 +44,7 @@ class Main {
         inorder(root.right);
     }
 
-    // Postorder: Left -> Right -> Root
+    
     static void postorder(Node root) {
         if (root == null) return;
 
